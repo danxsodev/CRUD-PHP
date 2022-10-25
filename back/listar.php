@@ -19,36 +19,37 @@
             <th colspan=4 style = 'border: 2px solid #1a1a1a; text-align: center;'> Sexo </th>
         </tr>";
 
-        echo "</table>";
 
-        echo "</center>";
     }
 
     else {
-        echo <script src="/front/src/script/listar.js"></script>
+        echo "<script src='/front/src/script/listar.js'></script>";
     }
 
     echo "<br/><br/>";
+
+    echo "<table>";
     echo "<center>";
-    echo "</center>";
 
     while ($linha = $listar->fetch(PDO::FETCH_ASSOC)) {
-        $codigo = $linha['codigo'];
-        $nome = $linha ['nome'];
-        $senha = $linha ['senha'];
-        $sexo = $linha ['sexo'];
+        $codigo = $linha['id_teste'];
+        $nome = $linha ['nm_teste'];
+        $senha = $linha ['senha_teste'];
+        $sexo = $linha ['sexo_teste'];
 
-        echo "<tr style = 'border: 2px solid #1a1a1a'>
-            <th colspan=4 style = 'border: 2px solid #1a1a1a; text-align: center;'> Código </th>
-            <th colspan=4 style = 'border: 2px solid #1a1a1a; text-align: center;'> Nome </th>
-            <th colspan=4 style = 'border: 2px solid #1a1a1a; text-align: center;'> Senha </th>
-            <th colspan=4 style = 'border: 2px solid #1a1a1a; text-align: center;'> Sexo </th>
+        echo "<tr style = 'border: 2px solid #1a1a1a align-items: center'>
+            <th colspan=4 style = 'border: 2px solid #1a1a1a; align-items: center;'> $codigo </th>
+            <th colspan=4 style = 'border: 2px solid #1a1a1a; align-items: center;'> $nome </th>
+            <th colspan=4 style = 'border: 2px solid #1a1a1a; align-items: center;'> $senha </th>
+            <th colspan=4 style = 'border: 2px solid #1a1a1a; align-items: center;'> $sexo </th>
         </tr>";
-
-        echo "<form>";
-        echo "input type='button' value='VOLTAR AO MENU' onClick = 'window.history.back();'";
-        echo "</form>";
     }
+
     echo "</table>";
+    echo "</center>";
+
+    echo "<form>";
+    echo "<input type='button' value='VOLTAR AO MENU' onClick = 'window.history.back()'/>";
+    echo "</form>";
 
 ?>
