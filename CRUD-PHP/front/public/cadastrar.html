@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/style/cadastrar.css">
+    <title>Cadastrar-se</title>
+</head>
+
+<body>
+    <header>
+        <h1>Cadastrar-se</h1>
+    </header>
+
+    <form method="post" action="/back/src/cadastrar.php">
+
+        <fieldset>
+            <span>
+                <h3>Insira seus dados para cadastrar-se</h3>
+            </span>
+
+            <label for="txt-login">Login</label>
+            <input type="text" name="txt-login" id="txt-login" placeholder="Insira seu nome" required>
+
+            <label for="txt-senha">Senha</label>
+            <input type="password" name="txt-senha" id="txt-senha" placeholder="Insira sua senha" required>
+
+            <div class="input-radio">
+                <span>
+                    <h4>Selecione o sexo</h4>
+                </span>
+
+                <label for="feminino">Feminino</label>
+                <input type="radio" name="radio-sexo" id="feminino" value="F">
+
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="radio-sexo" id="masculino" value="M">
+            </div>
+
+            <div class="btn">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+                <input type="button" value="Voltar ao menu">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
