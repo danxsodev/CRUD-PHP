@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/style/main.css">
+    <title>Cadastrar-se</title>
+</head>
+
+<body>
+    <section>
+        <header>
+            <h1>Cadastrar-se</h1>
+        </header>
+
+        <form method="post" action="./cadastrar.php">
+
+            <fieldset>
+                <span>
+                    <h3>Insira seus dados para cadastrar-se</h3>
+                </span>
+
+                <label for="txt-login">Login:</label>
+                <input type="text" name="txt-login" id="txt-login" placeholder="Insira seu username" required>
+
+                <label for="txt-senha">Senha:</label>
+                <input type="password" name="txt-senha" id="txt-senha" placeholder="Insira sua senha" required>
+
+                <div class="select-gender">
+                    <span>
+                        <h4>Selecione o sexo:</h4>
+                    </span>
+
+                    <span>
+                        <input type="radio" name="radio-sexo" id="feminino" value="F">
+                        <label for="feminino">Feminino</label>
+                    </span>
+
+                    <span>
+                        <input type="radio" name="radio-sexo" id="masculino" value="M">
+                        <label for="masculino">Masculino</label>
+                    </span>
+
+                    <span>
+                        <input type="radio" name="radio-sexo" id="nao-binario" value="NB">
+                        <label for="nao-binario">Não binário</label>
+                    </span>
+                </div>
+
+                <div class="btn">
+                    <input type="submit" value="Enviar" id="btn-submit">
+                    <input type="reset" value="Limpar" id="btn-reset">
+                    <input type="button" value="Voltar ao menu" id="btn-back">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+</body>
+</html>
