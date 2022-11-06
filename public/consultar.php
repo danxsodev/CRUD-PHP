@@ -10,9 +10,9 @@
         echo "<table style = 'border: 2px solid #1a1a1a'>";
 
         echo "<tr style = 'border: 2px solid #1a1a1a' 'text-align: center;'>  
-            <th colspan=1 style = 'border: 2px solid #1a1a1a;' 'text-align: center;'> Dados Cadastrados </th>
+            <th style = 'border: 2px solid #1a1a1a; text-align: center;'>Dados Cadastrados</th>
         </tr>";
-        
+            
         echo "<tr style = 'border: 2px solid #1a1a1a'>
             <th colspan=4 style = 'border: 2px solid #1a1a1a; text-align: center;'>Código</th>
             <th colspan=4 style = 'border: 2px solid #1a1a1a; text-align: center;'>Username</th>

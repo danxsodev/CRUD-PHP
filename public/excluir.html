@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/style/main.css">
+    <title>Excluir Usuário</title>
+</head>
+
+<body>
+    <section>
+        <header>
+            <h1>Excluir Usuário</h1>
+        </header>
+
+        <form method="post" action="./excluir.php">
+            <fieldset>
+                <span>
+                    <h3>Insira seu código de usuário para excluir seus dados</h3>
+                </span>
+
+                <label for="txt-id">Código de usuário</label>
+                <input type="text" name="txt-id" id="txt-id" placeholder="Insira seu código de usuário" required>
+
+                <div class="btn">
+                    <input type="submit" value="Excluir" id="btn-submit">
+                    <input type="reset" value="Limpar" id="btn-reset">
+                    <input type="button" value="Voltar ao menu" id="btn-back">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
