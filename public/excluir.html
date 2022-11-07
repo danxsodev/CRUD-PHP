@@ -14,7 +14,7 @@
             <h1>Excluir Usuário</h1>
         </header>
 
-        <form method="post" action="./excluir.php">
+        <form method="post" action="../back/excluir.php">
             <fieldset>
                 <span>
                     <h3>Insira seu código de usuário para excluir seus dados</h3>
@@ -22,6 +22,8 @@
 
                 <label for="txt-id">Código de usuário</label>
                 <input type="text" name="txt-id" id="txt-id" placeholder="Insira seu código de usuário" required>
+
+                <span><a href="../back/consultar.php">Esqueceu seu código? Clique Aqui</a></span>
 
                 <div class="btn">
                     <input type="submit" value="Excluir" id="btn-submit">

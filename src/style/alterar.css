@@ -60,6 +60,11 @@ fieldset span h3 {
     font-size: 1.8rem;
 }
 
+fieldset span a {
+    text-decoration: none;
+    color: #f8f4f2;
+}
+
 div.select-gender {
     margin-block: 3rem;
     width: 100%;

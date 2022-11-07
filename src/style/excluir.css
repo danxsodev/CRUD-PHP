@@ -52,4 +52,24 @@ fieldset {
     gap: 1rem;
     border: 0.2rem solid #f3f3f3;
     border-radius: 0.5rem;
+    color: #f8f4f2;
+}
+
+fieldset span a {
+    text-decoration: none;
+}
+
+input#btn-submit,
+input#btn-reset,
+input#btn-back {
+    width: 15rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 0.8rem;
+    background-color: #dacadd;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
 }
