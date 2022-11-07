@@ -1,2 +1,5 @@
-window.alert("Dados excluídos com sucesso!");
-window.history.back();
+const btnSubmitDelete = document.getElementById("btn-submit")
+btnSubmitDelete.addEventListener("click", ( ) => {
+    window.alert("Dados excluídos com sucesso!");
+})
+

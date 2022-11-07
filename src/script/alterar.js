@@ -1,3 +1,5 @@
-window.alert("Dados alterados com sucesso!");
-window.history.back();
+const btnSubmitUpdate = document.getElementById("btn-submit")
+btnSubmitUpdate.addEventListener("click", ( ) => {
+    window.alert("Dados alterados com sucesso!");
+})
 

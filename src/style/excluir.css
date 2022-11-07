@@ -52,11 +52,11 @@ fieldset {
     gap: 1rem;
     border: 0.2rem solid #f3f3f3;
     border-radius: 0.5rem;
-    color: #f8f4f2;
 }
 
 fieldset span a {
     text-decoration: none;
+    color: #f8f4f2;
 }
 
 input#btn-submit,

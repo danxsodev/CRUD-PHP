@@ -1,6 +1,4 @@
-window.alert("Cadastro realizado com sucesso!");
-
-const btnBackMenu = document.getElementById("btn-back");
-btnBackMenu.onclick = window.history.back();
-
-
+const btnSubmit = document.getElementById("btn-submit")
+btnSubmit.addEventListener("click", ( ) => {
+    window.alert("Cadastro realizado com sucesso!");
+})
