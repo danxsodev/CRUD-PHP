@@ -9,5 +9,5 @@
     $update = $comando->query("update tbUsers set username = '$login', senha = '$senha', sexo = '$sexo' 
     where id = '$userID'");
 
-    echo "<script src='../src/script/alterar.js'></script>";
+    //echo "<script src='../src/script/alterar.js'></script>";//
 ?>
