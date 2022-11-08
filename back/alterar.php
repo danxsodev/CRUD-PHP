@@ -9,5 +9,12 @@
     $update = $comando->query("update tbUsers set username = '$login', senha = '$senha', sexo = '$sexo' 
     where id = '$userID'");
 
-    //echo "<script src='../src/script/alterar.js'></script>";//
+    echo "<center>";
+    echo "<form>";
+    echo "<input type='button' value='VOLTAR AO MENU' style = 'cursor: pointer' onClick = 'window.history.back()'/>";
+    echo "</form>";
+    echo "</center>";
+
+
+    echo "<script src='../src/script/alterar.js'></script>";
 ?>

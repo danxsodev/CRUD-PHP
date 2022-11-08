@@ -7,10 +7,7 @@
 
     $insert = $comando->query("insert into tbUsers(username, senha, sexo) values('$login', '$senha', '$sexo')");
 
-    /*echo "<script lang='javascript'>
-
-    </script>";*/
-    //echo "<script src='../src/script/cadastrar.js'></script>";//
+    echo "<script src='../src/script/cadastrar.js'></script>";
 
     /*echo "<script type='text/JavaScript'> 
         document.querySelector('form').addEventListener('submit', (event) => {
@@ -18,5 +15,12 @@
             window.alert('Cadastro realizado com sucesso!');
             window.history.back();
         });
-    </script>";*/
+    </script>";
+
+
+    echo "<center>";
+    echo "<form>";
+    echo "<input type='button' value='VOLTAR AO MENU' style = 'cursor: pointer' onClick = 'window.history.back()'/>";
+    echo "</form>";
+    echo "</center>"; */
 ?>

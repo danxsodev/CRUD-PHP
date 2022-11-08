@@ -10,14 +10,14 @@
         echo "<table style = 'border: 2px solid #1a1a1a'>";
 
         echo "<tr style = 'border: 2px solid #1a1a1a' 'text-align: center;'>  
-            <th style = 'border: 2px solid #1a1a1a; text-align: center;'>Dados Cadastrados</th>
+            <th colspan=4 style = 'border: 2px solid #1a1a1a; text-align: center;'>Dados Cadastrados</th>
         </tr>";
             
         echo "<tr style = 'border: 2px solid #1a1a1a'>
-            <th colspan=4 style = 'border: 2px solid #1a1a1a; text-align: center;'>Código</th>
-            <th colspan=4 style = 'border: 2px solid #1a1a1a; text-align: center;'>Username</th>
-            <th colspan=4 style = 'border: 2px solid #1a1a1a; text-align: center;'>Senha</th>
-            <th colspan=4 style = 'border: 2px solid #1a1a1a; text-align: center;'>Sexo</th>
+            <th  style = 'border: 2px solid #1a1a1a; text-align: center;'>Código</th>
+            <th  style = 'border: 2px solid #1a1a1a; text-align: center;'>Username</th>
+            <th  style = 'border: 2px solid #1a1a1a; text-align: center;'>Senha</th>
+            <th  style = 'border: 2px solid #1a1a1a; text-align: center;'>Sexo</th>
         </tr>";
 
     }
@@ -34,10 +34,10 @@
         $sexo = $linha['sexo'];
 
         echo "<tr style = 'border: 2px solid #1a1a1a align-items: center'>
-            <th colspan=4 style = 'border: 2px solid #1a1a1a; align-items: center;'>$userID</th>
-            <th colspan=4 style = 'border: 2px solid #1a1a1a; align-items: center;'>$login</th>
-            <th colspan=4 style = 'border: 2px solid #1a1a1a; align-items: center;'>$senha</th>
-            <th colspan=4 style = 'border: 2px solid #1a1a1a; align-items: center;'>$sexo</th>
+            <th  style = 'border: 2px solid #1a1a1a; align-items: center;'>$userID</th>
+            <th  style = 'border: 2px solid #1a1a1a; align-items: center;'>$login</th>
+            <th  style = 'border: 2px solid #1a1a1a; align-items: center;'>$senha</th>
+            <th  style = 'border: 2px solid #1a1a1a; align-items: center;'>$sexo</th>
         </tr>";
     }
 
@@ -48,7 +48,7 @@
 
     echo "<center>";
     echo "<form>";
-    echo "<input type='button' value='VOLTAR AO MENU' style = 'cursor: pointer' onClick = 'window.history.back()'/>";
+    echo "<input type='button' value='VOLTAR' style = 'cursor: pointer' onClick = 'window.history.back()'/>";
     echo "</form>";
     echo "</center>";
 
