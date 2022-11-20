@@ -13,4 +13,3 @@ insert into tbUsers values (default, 'Robson', '1234', 'M');
 desc tbUsers;
 
 select * from tbUsers;
-
