@@ -37,8 +37,6 @@
             </tr>";
         }
     
-
-
     if ($userID !="") {
         
         if ($total_registros > 0) {
